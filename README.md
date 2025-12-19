@@ -1,4 +1,4 @@
-This project is a blockchain based savings ledger for Tukiinue Chama
+This project is a blockchain based savings ledger for Tujiinue Chama
 How To Run.
 Open Remix IDE
 Upload Chama.sol from the Browse (contract) folder
