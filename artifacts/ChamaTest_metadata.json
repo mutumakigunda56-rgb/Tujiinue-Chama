@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDeposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailDepositZero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailOverWithdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInitialChairperson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTotalFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testWithdrawal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"testDeposit()": {
+					"notice": "#value: 1 ether"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browse/test/Chama_test.sol": "ChamaTest"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browse/contracts/Chama.sol": {
+			"keccak256": "0xf8b0f583d84530b498512616c2f7827a0c302dc1858f5994d676825f64fd1435",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://27466175087300c880878176f6f9b9edf4cfa995666fe2e83c02081e5ca40af5",
+				"dweb:/ipfs/QmcC3HckBJ46KTFJCSLBefgpLHxasqWRBBzeBFCCXqULrb"
+			]
+		},
+		"browse/test/Chama_test.sol": {
+			"keccak256": "0x5c5654e694a891a5a1336d7ebada1ee744eb9bcd8458c337af828cb79c0ce69b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://200fc365002c0b8597f7951a4e9cd62a70de22a42ebfc861e14dda2c42cb65d5",
+				"dweb:/ipfs/QmPNsxGuX6Sk44JWKKqw29KsUzKTENxJFYgm19XyyQtKoc"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}

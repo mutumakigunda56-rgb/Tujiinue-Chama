@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chama.sol": "MyFirstContract"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chama.sol": {
+			"keccak256": "0x1676c1bf0d6bf4fe4874f3f4b3b498b3bf5d3847d9ff739a7177cb81920b7665",
+			"urls": [
+				"bzz-raw://68b6ef9349bcd5691ff2136ae24b3ddc22283aab6c7ff49ed773fd48ef620b99",
+				"dweb:/ipfs/Qmb5rGk7M8BFVSAE3vbNjnmmJpPS9i8FcjWcXck7BdJ1Q2"
+			]
+		}
+	},
+	"version": 1
+}
